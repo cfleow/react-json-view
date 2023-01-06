@@ -141,6 +141,11 @@ export interface ReactJsonViewProps {
    * Default: null
    */
   defaultValue?: TypeDefaultValue | TypeDefaultValue[] | null;
+  /*
+   * An array of properties to exclude from edit and delete
+   * Default: []
+   */
+  nonEditableFields?: Array<string | null>;
 }
 
 export interface OnCopyProps {
