@@ -4,10 +4,12 @@
     "version": "1.21.3",
     "main": "dist/main.js",
     "dependencies": {
+        "@reduxjs/toolkit": "^1.9.3",
         "flux": "^4.0.3",
         "react-base16-styling": "^0.9.1",
         "react-lifecycles-compat": "^3.0.4",
-        "react-textarea-autosize": "^8.4.0"
+        "react-textarea-autosize": "^8.4.0",
+        "redux": "^4.2.1"
     },
     "devDependencies": {
         "@babel/eslint-parser": "^7.19.1",
